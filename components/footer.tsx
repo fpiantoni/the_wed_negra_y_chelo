@@ -14,20 +14,30 @@ export function Footer() {
           </div>
 
           <div className="flex justify-center gap-6">
-            <button className="w-12 h-12 rounded-full bg-[#8B2332] flex items-center justify-center text-primary-foreground hover:bg-[#6B1A26] transition-colors">
+            <a 
+              href="https://www.instagram.com/thewed_nyc?igsh=MXIwanJzY3lsNWd3OQ%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-[#AA1F33] flex items-center justify-center text-primary-foreground hover:bg-[#8B1A28] transition-colors"
+            >
               <Instagram className="w-5 h-5" />
-            </button>
-            <button className="w-12 h-12 rounded-full bg-[#8B2332] flex items-center justify-center text-primary-foreground hover:bg-[#6B1A26] transition-colors">
+            </a>
+            <a 
+              href="https://dotstheapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-[#AA1F33] flex items-center justify-center text-primary-foreground hover:bg-[#8B1A28] transition-colors"
+            >
               <MessageCircle className="w-5 h-5" />
-            </button>
+            </a>
           </div>
 
-          <div className="pt-8">
-            <div className="text-6xl md:text-8xl font-serif text-[#8B2332] flex items-center justify-center gap-2">
-              <span>N</span>
-              <span className="text-5xl md:text-7xl">❤</span>
-              <span>C</span>
-            </div>
+          <div className="pt-8 flex justify-center">
+            <img
+              src="/logo_rojo.png"
+              alt="Negra & Chelo Logo"
+              className="h-32 md:h-40 w-auto object-contain"
+            />
           </div>
         </div>
       </div>

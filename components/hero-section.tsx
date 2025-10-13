@@ -11,7 +11,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section id="home" className="relative min-h-[500px] md:min-h-[600px] overflow-hidden bg-[#8B2332]">
+    <section id="home" className="relative min-h-[500px] md:min-h-[600px] overflow-hidden bg-[#AA1F33]">
       {/* Scrolling carousel container */}
       <div className="absolute inset-0 flex">
         <div className="flex gap-12 md:gap-16 animate-scroll-left items-center h-full">

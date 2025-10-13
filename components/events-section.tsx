@@ -10,19 +10,28 @@ export function EventsSection() {
           {/* Church Event */}
           <Card className="border-none shadow-none">
             <CardContent className="p-0">
-              <div className="w-full aspect-[4/3] bg-[#8B2332] mb-4 flex items-center justify-center">
+              <div className="w-full aspect-[4/3] bg-[#AA1F33] mb-4 flex items-center justify-center">
                 <Church className="w-16 h-16 md:w-20 md:h-20 text-white" strokeWidth={1.5} />
               </div>
 
               <div className="text-center space-y-3">
                 <p className="text-xs md:text-sm text-muted-foreground">18:00 HS | IGLESIA</p>
-                <h3 className="text-lg md:text-xl font-serif text-[#8B2332]">
+                <h3 className="text-lg md:text-xl font-serif text-[#AA1F33]">
                   IGLESIA FALDA
                   <br />
                   DEL CARMEN
                 </h3>
-                <Button className="bg-[#8B2332] hover:bg-[#6B1A26] text-primary-foreground rounded-full px-6 text-sm">
-                  COMO LLEGAR?
+                <Button 
+                  asChild
+                  className="bg-[#AA1F33] hover:bg-[#8B1A28] text-primary-foreground rounded-full px-6 text-sm"
+                >
+                  <a 
+                    href="https://maps.app.goo.gl/7DdkerC4Lr4soE1v5?g_st=ipc" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    COMO LLEGAR?
+                  </a>
                 </Button>
               </div>
             </CardContent>
@@ -31,19 +40,28 @@ export function EventsSection() {
           {/* Reception Event */}
           <Card className="border-none shadow-none">
             <CardContent className="p-0">
-              <div className="w-full aspect-[4/3] bg-[#8B2332] mb-4 flex items-center justify-center">
+              <div className="w-full aspect-[4/3] bg-[#AA1F33] mb-4 flex items-center justify-center">
                 <PartyPopper className="w-16 h-16 md:w-20 md:h-20 text-white" strokeWidth={1.5} />
               </div>
 
               <div className="text-center space-y-3">
                 <p className="text-xs md:text-sm text-muted-foreground">19:30 HS | FIESTA</p>
-                <h3 className="text-lg md:text-xl font-serif text-[#8B2332]">
+                <h3 className="text-lg md:text-xl font-serif text-[#AA1F33]">
                   ESTANCIA
                   <br />
                   CAUSANA
                 </h3>
-                <Button className="bg-[#8B2332] hover:bg-[#6B1A26] text-primary-foreground rounded-full px-6 text-sm">
-                  COMO LLEGAR?
+                <Button 
+                  asChild
+                  className="bg-[#AA1F33] hover:bg-[#8B1A28] text-primary-foreground rounded-full px-6 text-sm"
+                >
+                  <a 
+                    href="https://maps.app.goo.gl/2ffbaPAJQgrDGS27A?g_st=ipc" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    COMO LLEGAR?
+                  </a>
                 </Button>
               </div>
             </CardContent>
