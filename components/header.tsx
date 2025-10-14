@@ -2,11 +2,11 @@ import Link from "next/link"
 
 export function Header() {
   return (
-    <header className="bg-background border-b border-border">
+    <header className="bg-[#F6EFEB] border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
-            src="/logo.png"
+            src="/logo_svg.svg"
             alt="Negra & Chelo"
             className="h-8 w-auto object-contain max-w-none"
           />

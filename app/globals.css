@@ -150,5 +150,5 @@
 }
 
 .animate-scroll-text {
-  animation: scroll-text 40s linear infinite;
+  animation: scroll-text 10s linear infinite;
 }

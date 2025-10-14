@@ -14,7 +14,7 @@ export function RsvpSection() {
         <Button
           asChild
           variant="outline"
-          className="bg-background text-foreground hover:bg-background/90 rounded-full px-8 border-none"
+          className="bg-[#F6EFEB] text-foreground hover:bg-[#F6EFEB]/90 rounded-full px-8 border-none"
         >
           <a 
             href="https://forms.gle/PhhJ6SECBC4p6bHJ9" 

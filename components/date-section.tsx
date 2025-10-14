@@ -1,6 +1,6 @@
 export function DateSection() {
   return (
-    <section className="bg-background py-12 overflow-visible">
+    <section className="bg-[#F6EFEB] py-12 overflow-visible">
       <div className="container mx-auto px-4 overflow-visible">
         <div className="max-w-2xl mx-auto border-2 border-foreground overflow-visible">
           {/* Month header */}

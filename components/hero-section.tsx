@@ -27,12 +27,12 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="absolute inset-0 z-10 flex items-end pb-0 md:pb-1 pointer-events-none">
-        <div className="relative ml-[60%]">
+      <div className="absolute inset-0 z-10 flex items-end pb-4 md:pb-1 pointer-events-none">
+        <div className="relative ml-[55%] md:ml-[60%]">
           {/* White logo */}
-          <div className="w-48 h-48 md:w-60 md:h-60 flex items-center justify-center">
+          <div className="w-36 h-36 md:w-60 md:h-60 flex items-center justify-center">
             <img
-              src="/white_logo_2.png"
+              src="/logo_svg_white.svg"
               alt="Negra & Chelo Wedding Logo"
               className="w-full h-full object-contain drop-shadow-2xl antialiased"
               style={{ 

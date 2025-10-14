@@ -2,15 +2,14 @@ import { Instagram, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-background py-16 border-t border-border">
+    <footer className="bg-[#F6EFEB] py-16 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-8">
           <div className="text-sm text-muted-foreground space-y-2">
-            <p>Внимание!</p>
-            <p>На всех языках на свете</p>
-            <p>объясняется к нашему</p>
-            <p>свадебному организатору:</p>
-            <p>Anna</p>
+            <p>¡Seguinos en nuestras redes</p>
+            <p>y descargá la app para</p>
+            <p>compartir los momentos!</p>
+            <p className="mt-4 font-serif ">Negra & Chelo</p>
           </div>
 
           <div className="flex justify-center gap-6">

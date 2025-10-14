@@ -1,6 +1,6 @@
 export function StorySection() {
   return (
-    <section id="nosotros" className="bg-background py-16 md:py-24">
+    <section id="nosotros" className="bg-[#F6EFEB] py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-serif text-center text-[#AA1F33] mb-8">COMO EMPEZÓ TODO</h2>
 
