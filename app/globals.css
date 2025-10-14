@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('/fonts/stylesheet.css');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -76,8 +77,8 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: 'Poppins', system-ui, sans-serif;
+  --font-mono: 'Poppins', system-ui, sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
