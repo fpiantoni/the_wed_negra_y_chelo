@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'The Wed N&C',
   description: 'Negra & Chelo Wedding - Celebrá nuestro amor con nosotros',
-  generator: 'v0.app',
   icons: {
     icon: '/white_logo.png',
     shortcut: '/white_logo.png',
