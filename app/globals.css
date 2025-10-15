@@ -141,6 +141,28 @@
   height: 100dvh !important; /* Para móviles modernos */
   z-index: 99999 !important;
   background-color: #F6EFEB !important;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  -webkit-transform: translateZ(0) !important;
+  transform: translateZ(0) !important;
+  isolation: isolate !important;
+}
+
+/* Específico para iOS Safari */
+@supports (-webkit-touch-callout: none) {
+  .loading-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100vh !important;
+    min-height: -webkit-fill-available !important;
+    z-index: 999999 !important;
+    background: #F6EFEB !important;
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
 }
 
 /* Adding infinite horizontal scroll animation for carousel */
