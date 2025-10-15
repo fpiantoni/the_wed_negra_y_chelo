@@ -14,14 +14,16 @@ export default function Home() {
     <main className="min-h-screen">
       <LoadingAnimation />
       <Header />
-      <HeroSection />
-      <StorySection />
-      <AnimatedTextBanner />
-      <DateSection />
-      <EventsSection />
-      <RsvpSection />
-      <GiftSection />
-      <Footer />
+      <div className="pt-20"> {/* Padding para compensar header fijo */}
+        <HeroSection />
+        <StorySection />
+        <AnimatedTextBanner />
+        <DateSection />
+        <EventsSection />
+        <RsvpSection />
+        <GiftSection />
+        <Footer />
+      </div>
     </main>
   )
 }
