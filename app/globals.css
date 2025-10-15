@@ -245,11 +245,13 @@
     opacity: 0;
     transform: translateY(-10px);
     max-height: 0;
+    overflow: hidden;
   }
   100% {
     opacity: 1;
     transform: translateY(0);
-    max-height: 500px;
+    max-height: none;
+    overflow: visible;
   }
 }
 

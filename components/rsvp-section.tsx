@@ -4,9 +4,13 @@ export function RsvpSection() {
   return (
     <section id="confirmar" className="bg-[#701114] py-16 md:py-20 text-center">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-semibold text-primary-foreground mb-4 font-poppins">
-          VENIS A CELEBRAR NUESTRO AMOR CON NOSOTROS?
-        </h2>
+        <div className="mb-4 flex justify-center">
+          <img
+            src="/venis-a-celebrar-nuestro-amor-titulo.svg"
+            alt="Venis a celebrar nuestro amor con nosotros?"
+            className="h-16 md:h-20 w-auto object-contain max-w-full"
+          />
+        </div>
         <p className="text-primary-foreground/90 mb-8 text-sm md:text-base font-poppins">
           Ojalá puedas ser parte de este día tan especial
         </p>

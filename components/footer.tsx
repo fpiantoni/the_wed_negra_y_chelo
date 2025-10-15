@@ -33,7 +33,7 @@ export function Footer() {
 
           <div className="pt-8 flex justify-center">
             <img
-              src="/logo_rojo.png"
+              src="/red_logo.svg"
               alt="Negra & Chelo Logo"
               className="h-32 md:h-40 w-auto object-contain"
             />

@@ -12,26 +12,28 @@ interface BankAccount {
   cbu: string
   alias: string
   holder: string
+  cuit?: string
 }
 
 const bankAccounts: BankAccount[] = [
   {
     type: 'pesos',
-    bank: 'Banco Galicia',
+    bank: 'Brubank',
     accountType: 'Caja de Ahorro',
-    accountNumber: '1234567890123456',
-    cbu: '0070123456789012345678',
-    alias: 'NEGRA.CHELO.AMOR',
-    holder: 'Negra y Chelo'
+    accountNumber: '1300937098001',
+    cbu: '1430001713009370980015',
+    alias: 'thewednegraychelo',
+    holder: 'Maria Victoria Piantoni Vera',
+    cuit: '27-40402365-4'
   },
   {
     type: 'dolares',
-    bank: 'Banco Galicia',
+    bank: 'Brubank',
     accountType: 'Caja de Ahorro USD',
-    accountNumber: '1234567890123456',
-    cbu: '0070123456789012345678',
-    alias: 'NEGRA.CHELO.USD',
-    holder: 'Negra y Chelo'
+    accountNumber: '1400937098002',
+    cbu: '1430001714009370980023',
+    alias: 'negraychelo',
+    holder: 'Maria Victoria Piantoni Vera'
   }
 ]
 
@@ -54,8 +56,8 @@ export function GiftSection() {
   }
 
   const renderAccountDetails = (account: BankAccount) => (
-    <div className="mt-6 p-6 bg-white/50 rounded-2xl border border-[#701114]/20 space-y-4 animate-fade-in-down">
-      <div className="text-left space-y-3">
+    <div className="mt-6 p-6 bg-white/50 rounded-2xl border border-[#701114]/20 space-y-4 animate-fade-in-down overflow-visible">
+      <div className="text-left space-y-3 w-full">
         <div className="flex justify-between items-center p-3 bg-white/70 rounded-xl border border-[#701114]/10">
           <div>
             <p className="text-xs font-medium text-[#701114]/60 font-poppins">BANCO</p>
@@ -127,6 +129,27 @@ export function GiftSection() {
           </Button>
         </div>
 
+        {account.cuit && (
+          <div className="flex justify-between items-center p-3 bg-white/70 rounded-xl border border-[#701114]/10 w-full">
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-medium text-[#701114]/60 font-poppins">CUIT</p>
+              <p className="text-sm font-semibold text-[#701114] font-poppins font-mono break-all">{account.cuit}</p>
+            </div>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => copyToClipboard(account.cuit!, `cuit-${account.type}`)}
+              className="ml-2 h-8 w-8 p-0 hover:bg-[#701114]/10 flex-shrink-0"
+            >
+              {copiedField === `cuit-${account.type}` ? (
+                <Check className="h-4 w-4 text-green-600" />
+              ) : (
+                <Copy className="h-4 w-4 text-[#701114]" />
+              )}
+            </Button>
+          </div>
+        )}
+
         <div className="flex justify-between items-center p-3 bg-white/70 rounded-xl border border-[#701114]/10">
           <div>
             <p className="text-xs font-medium text-[#701114]/60 font-poppins">TITULAR</p>
@@ -172,7 +195,7 @@ export function GiftSection() {
         </div>
 
         {/* Información desplegable */}
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto min-h-0 overflow-visible">
           {expandedAccount === 'pesos' && renderAccountDetails(bankAccounts[0])}
           {expandedAccount === 'dolares' && renderAccountDetails(bankAccounts[1])}
         </div>

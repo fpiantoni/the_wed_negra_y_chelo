@@ -59,7 +59,7 @@ export function LoadingAnimation() {
         <div className="relative">
           <div className="w-32 h-32 md:w-40 md:h-40 mx-auto animate-pulse-gentle">
             <img
-              src="/logo_rojo.png"
+              src="/red_logo.svg"
               alt="Negra & Chelo"
               className="w-full h-full object-contain"
             />

@@ -2,7 +2,13 @@ export function StorySection() {
   return (
     <section id="nosotros" className="bg-[#F6EFEB] py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#701114] mb-8 font-poppins">COMO EMPEZÓ TODO</h2>
+        <div className="text-center mb-8">
+          <img
+            src="/como-empezo-todo.svg"
+            alt="Como empezó todo"
+            className="h-12 md:h-16 w-auto object-contain max-w-full mx-auto"
+          />
+        </div>
 
         <div className="flex justify-center mb-8">
           <div className="w-12 h-12 bg-[#701114]" />
