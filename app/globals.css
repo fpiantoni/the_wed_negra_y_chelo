@@ -129,6 +129,20 @@
   }
 }
 
+/* Loading screen override - máxima prioridad */
+.loading-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important; /* Para móviles modernos */
+  z-index: 99999 !important;
+  background-color: #F6EFEB !important;
+}
+
 /* Adding infinite horizontal scroll animation for carousel */
 @keyframes scroll-left {
   0% {

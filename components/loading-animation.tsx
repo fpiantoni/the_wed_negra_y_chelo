@@ -17,8 +17,8 @@ export function LoadingAnimation() {
   if (!isLoading) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#F6EFEB] animate-fade-out">
-      <div className="text-center space-y-8">
+    <div className="loading-overlay fixed inset-0 z-[99999] flex items-center justify-center bg-[#F6EFEB] animate-fade-out w-full h-full min-h-screen">
+      <div className="text-center space-y-8 px-4">
         {/* Logo principal con animación */}
         <div className="relative">
           <div className="w-32 h-32 md:w-40 md:h-40 mx-auto animate-pulse-gentle">
