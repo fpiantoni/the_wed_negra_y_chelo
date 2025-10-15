@@ -10,9 +10,9 @@ export function StorySection() {
           />
         </div>
 
-        <div className="flex justify-center mb-8">
+        {/* <div className="flex justify-center mb-8">
           <div className="w-12 h-12 bg-[#701114]" />
-        </div>
+        </div> */}
 
         <div className="space-y-6 text-sm md:text-base leading-relaxed text-[#701114] text-center font-poppins">
           <p>
