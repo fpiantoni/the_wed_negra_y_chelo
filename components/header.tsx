@@ -13,16 +13,16 @@ export function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#home" className="text-sm uppercase tracking-wide hover:text-[#AA1F33] transition-colors">
+          <Link href="#home" className="text-sm uppercase tracking-wide text-[#701114] hover:font-semibold transition-all font-poppins">
             Home
           </Link>
-          <Link href="#nosotros" className="text-sm uppercase tracking-wide hover:text-[#AA1F33] transition-colors">
+          <Link href="#nosotros" className="text-sm uppercase tracking-wide text-[#701114] hover:font-semibold transition-all font-poppins">
             Nosotros
           </Link>
-          <Link href="#info" className="text-sm uppercase tracking-wide hover:text-[#AA1F33] transition-colors">
+          <Link href="#info" className="text-sm uppercase tracking-wide text-[#701114] hover:font-semibold transition-all font-poppins">
             Info Práctica
           </Link>
-          <Link href="#confirmar" className="text-sm uppercase tracking-wide hover:text-[#AA1F33] transition-colors">
+          <Link href="#confirmar" className="text-sm uppercase tracking-wide text-[#701114] hover:font-semibold transition-all font-poppins">
             Confirmar
           </Link>
         </nav>

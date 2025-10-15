@@ -11,7 +11,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section id="home" className="relative min-h-[500px] md:min-h-[600px] overflow-hidden bg-[#AA1F33]">
+    <section id="home" className="relative min-h-[500px] md:min-h-[600px] overflow-hidden bg-[#701114]">
       {/* Scrolling carousel container */}
       <div className="absolute inset-0 flex">
         <div className="flex gap-12 md:gap-16 animate-scroll-left items-center h-full">
@@ -20,7 +20,7 @@ export function HeroSection() {
               <img
                 src={image || "/placeholder.svg"}
                 alt={`Wedding photo ${index + 1}`}
-                className="w-full h-full object-cover "
+                className="w-full h-full object-cover rounded-[8px]"
               />
             </div>
           ))}

@@ -7,10 +7,12 @@ import { EventsSection } from "@/components/events-section"
 import { RsvpSection } from "@/components/rsvp-section"
 import { GiftSection } from "@/components/gift-section"
 import { Footer } from "@/components/footer"
+import { LoadingAnimation } from "@/components/loading-animation"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <LoadingAnimation />
       <Header />
       <HeroSection />
       <StorySection />
