@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 export const metadata: Metadata = {
   title: 'The Wed N&C',
   description: 'Negra & Chelo Wedding - Celebrá nuestro amor con nosotros',
   icons: {
-    icon: '/white_logo.png',
-    shortcut: '/white_logo.png',
-    apple: '/white_logo.png',
+    icon: '/red_logo.svg',
+    shortcut: '/red_logo.svg',
+    apple: '/red_logo.svg',
   },
 }
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className="font-poppins">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
