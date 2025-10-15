@@ -163,7 +163,13 @@ export function GiftSection() {
   return (
     <section className="bg-[#F6EFEB] py-16 md:py-20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#701114] mb-6 font-poppins">SI QUERES HACERNOS UN REGALO</h2>
+        <div className="mb-6 flex justify-center">
+          <img
+            src="/si_queres_hacernos_un_regalo_new.svg"
+            alt="Si querés hacernos un regalo"
+            className="h-12 md:h-16 w-auto object-contain max-w-full"
+          />
+        </div>
         <p className="text-sm md:text-base text-[#701114] mb-8 max-w-2xl mx-auto leading-relaxed font-poppins">
           El mejor regalo para nosotros es que nos acompañen en este día tan especial, pero si igualmente querés
           regalarnos algo, te dejamos nuestros datos.

@@ -35,7 +35,7 @@ export function DateSection() {
                 }}
               >
                 <img
-                  src="/circulo_fecha.svg"
+                  src="/mancha_calendario.svg"
                   alt="Custom red circle"
                   className="w-full h-full object-contain"
                 />

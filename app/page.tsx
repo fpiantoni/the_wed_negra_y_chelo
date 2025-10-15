@@ -6,6 +6,7 @@ import { DateSection } from "@/components/date-section"
 import { EventsSection } from "@/components/events-section"
 import { RsvpSection } from "@/components/rsvp-section"
 import { GiftSection } from "@/components/gift-section"
+import { NotitaSection } from "@/components/notita-section"
 import { Footer } from "@/components/footer"
 import { LoadingAnimation } from "@/components/loading-animation"
 
@@ -22,6 +23,7 @@ export default function Home() {
         <EventsSection />
         <RsvpSection />
         <GiftSection />
+        <NotitaSection />
         <Footer />
       </div>
     </main>

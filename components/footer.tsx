@@ -1,4 +1,4 @@
-import { Instagram, MessageCircle } from "lucide-react"
+import { Instagram, Download } from "lucide-react"
 
 export function Footer() {
   return (
@@ -6,10 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-8">
           <div className="text-sm text-[#701114] space-y-2 font-poppins">
-            <p>¡Seguinos en nuestras redes</p>
-            <p>y descargá la app para</p>
-            <p>compartir los momentos!</p>
-            <p className="mt-4 font-semibold font-poppins">Negra & Chelo</p>
+            <p className="font-semibold font-poppins">Negra & Chelo</p>
           </div>
 
           <div className="flex justify-center gap-6">
@@ -22,12 +19,12 @@ export function Footer() {
               <Instagram className="w-5 h-5" />
             </a>
             <a 
-              href="https://dotstheapp.com/"
+              href="https://apps.apple.com/app/dots-the-app/id1234567890"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-[#701114] flex items-center justify-center text-primary-foreground hover:bg-[#5a0e10] transition-colors"
             >
-              <MessageCircle className="w-5 h-5" />
+              <Download className="w-5 h-5" />
             </a>
           </div>
 

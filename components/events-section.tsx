@@ -8,7 +8,7 @@ export function EventsSection() {
         <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
           {/* Church Event */}
           <div className="p-6 text-center">
-            <div className="w-full aspect-[4/3] bg-[#701114] mb-6 flex items-center justify-center rounded-[8px]">
+            <div className="w-full aspect-[4/3] bg-[#701114] mb-4 flex items-center justify-center rounded-[8px]">
               <Church className="w-16 h-16 md:w-20 md:h-20 text-white" strokeWidth={1.5} />
             </div>
 
@@ -34,8 +34,12 @@ export function EventsSection() {
 
           {/* Reception Event */}
           <div className="p-6 text-center">
-            <div className="w-full aspect-[4/3] bg-[#701114] mb-6 flex items-center justify-center rounded-[8px]">
-              <PartyPopper className="w-16 h-16 md:w-20 md:h-20 text-white" strokeWidth={1.5} />
+            <div className="w-full aspect-[4/3]  mb-4 flex items-center justify-center rounded-[8px]">
+              <img
+                src="/icono_estancia_causana_icono.svg"
+                alt="Estancia Causana"
+                className="w-32 h-32 md:w-40 md:h-40 object-contain"
+              />
             </div>
 
             <div className="space-y-4">

@@ -32,7 +32,7 @@ export function HeroSection() {
           {/* White logo */}
           <div className="w-36 h-36 md:w-60 md:h-60 flex items-center justify-center">
             <img
-              src="/logo_svg_white.svg"
+              src="/logo_de_las_fotos.svg"
               alt="Negra & Chelo Wedding Logo"
               className="w-full h-full object-contain drop-shadow-2xl antialiased"
               style={{ 

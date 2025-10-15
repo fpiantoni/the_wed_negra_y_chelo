@@ -10,9 +10,13 @@ export function StorySection() {
           />
         </div>
 
-        {/* <div className="flex justify-center mb-8">
-          <div className="w-12 h-12 bg-[#701114]" />
-        </div> */}
+        <div className="flex justify-center mb-8">
+          <img
+            src="/icono_como_empezo_todo.svg"
+            alt="Icono como empezó todo"
+            className="w-20 h-20 md:w-24 md:h-24 object-contain"
+          />
+        </div>
 
         <div className="space-y-6 text-sm md:text-base leading-relaxed text-[#701114] text-center font-poppins">
           <p>
@@ -33,10 +37,9 @@ export function StorySection() {
           <p>
             Así llegó el 19 de mayo, una fecha muy especial para ellos.
             Esa noche, Chelo escribió las palabras mágicas bajo la luz de su eterna cómplice: la luna, que fue testigo silenciosa del comienzo de su historia.
-          </p>
-          <p>
             Apostaron a ese amor cómplice. Y con los años, más maduros, más enamorados y más compañeros, decidieron llevarlo un paso más allá: hacerlo eterno, hacerlo juntos.
           </p>
+         
           <p>
             Por eso, un 3 de noviembre de 2024, se prometieron amarse para toda la vida.
           </p>

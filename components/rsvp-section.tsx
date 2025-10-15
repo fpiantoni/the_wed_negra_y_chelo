@@ -11,8 +11,8 @@ export function RsvpSection() {
             className="h-16 md:h-20 w-auto object-contain max-w-full"
           />
         </div>
-        <p className="text-primary-foreground/90 mb-8 text-sm md:text-base font-poppins">
-          Ojalá puedas ser parte de este día tan especial
+        <p className="text-primary-foreground/90 mb-6 text-sm md:text-base font-poppins">
+          Ojalá puedas ser parte de este día tan especial!
         </p>
 
         <Button
@@ -29,7 +29,7 @@ export function RsvpSection() {
           </a>
         </Button>
 
-        <p className="text-primary-foreground/70 text-xs mt-6 font-poppins">Confirmá asistencia antes del 15 de noviembre</p>
+        <p className="text-primary-foreground/60 text-xs mt-6 font-poppins font-light">Confirmá asistencia antes del 15 de Noviembre</p>
       </div>
     </section>
   )

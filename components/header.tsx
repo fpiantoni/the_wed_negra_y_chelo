@@ -23,7 +23,7 @@ export function Header() {
   }
 
   return (
-    <header className="bg-[#F6EFEB] border-b border-border fixed top-0 left-0 right-0 z-40">
+    <header className="bg-[#F6EFEB] fixed top-0 left-0 right-0 z-40">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
