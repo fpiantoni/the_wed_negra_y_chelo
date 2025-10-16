@@ -5,14 +5,21 @@ export function AnimatedTextBanner() {
 
   return (
     <section className="w-full bg-[#701114] py-6 overflow-hidden">
-      <div className="flex whitespace-nowrap animate-scroll-text">
-        {/* Repeat the text multiple times for seamless loop */}
-        {[...Array(10)].map((_, i) => (
-          <div key={i} className="flex items-center">
-            <span className="text-white text-xl md:text-2xl font-semibold tracking-wide px-4 font-poppins">{text}</span>
-            <span className="text-white text-xl md:text-2xl px-2">**</span>
-          </div>
-        ))}
+      <div className="flex animate-infinite-scroll">
+        <div className="flex items-center whitespace-nowrap">
+          {[...Array(15)].map((_, i) => (
+            <span key={i} className="text-white text-xl md:text-2xl font-semibold tracking-wide px-4 font-poppins">
+              {text} ** 
+            </span>
+          ))}
+        </div>
+        <div className="flex items-center whitespace-nowrap">
+          {[...Array(15)].map((_, i) => (
+            <span key={i} className="text-white text-xl md:text-2xl font-semibold tracking-wide px-4 font-poppins">
+              {text} ** 
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   )
