@@ -15,7 +15,7 @@ export function Footer() {
               <Instagram className="w-5 h-5" />
             </a>
             <a 
-              href="https://apps.apple.com/app/dots-the-app/id1234567890"
+              href="https://dotstheapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-[#701114] flex items-center justify-center text-primary-foreground hover:bg-[#5a0e10] transition-colors"
