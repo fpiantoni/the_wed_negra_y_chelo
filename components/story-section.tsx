@@ -14,7 +14,7 @@ export function StorySection() {
           <img
             src="/icono_como_empezo_todo.svg"
             alt="Icono como empezó todo"
-            className="w-20 h-20 md:w-24 md:h-24 object-contain"
+            className="w-32 h-32 md:w-36 md:h-36 object-contain"
           />
         </div>
 
