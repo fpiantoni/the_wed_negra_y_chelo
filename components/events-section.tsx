@@ -9,7 +9,7 @@ export function EventsSection() {
           <div className="p-6 text-center flex flex-col items-center">
             <div className="w-48 h-48 md:w-56 md:h-56 mb-6 flex items-center justify-center">
               <img
-                src="/logo_iglesia.svg"
+                src="/logo_auto.svg"
                 alt="Iglesia"
                 className="w-32 h-32 md:w-40 md:h-40 object-contain mt-6"
                 style={{ verticalAlign: 'middle' }}
