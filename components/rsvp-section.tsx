@@ -29,7 +29,7 @@ export function RsvpSection() {
           </a>
         </Button>
 
-        <p className="text-primary-foreground/60 text-xs mt-6 font-poppins font-light">Confirmá asistencia antes del 15 de Noviembre</p>
+        <p className="text-primary-foreground/60 text-xs mt-6 font-poppins font-light">*Confirmá asistencia antes del 15 de Noviembre.</p>
       </div>
     </section>
   )

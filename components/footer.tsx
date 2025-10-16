@@ -5,10 +5,6 @@ export function Footer() {
     <footer className="bg-[#F6EFEB] py-16 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-8">
-          <div className="text-sm text-[#701114] space-y-2 font-poppins">
-            <p className="font-semibold font-poppins">Negra & Chelo</p>
-          </div>
-
           <div className="flex justify-center gap-6">
             <a 
               href="https://www.instagram.com/thewed_nyc?igsh=MXIwanJzY3lsNWd3OQ%3D%3D&utm_source=qr"

@@ -8,7 +8,7 @@ export function NotitaSection() {
           <img
             src="/notita_de_abajo.svg"
             alt="Notita"
-            className="h-32 md:h-56 lg:h-72 xl:h-80 w-auto object-contain max-w-full"
+            className="h-48 md:h-56 lg:h-72 xl:h-80 w-auto object-contain max-w-full"
           />
         </div>
       </div>
