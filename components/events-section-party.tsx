@@ -17,7 +17,7 @@ export function EventsSectionParty() {
             </div>
 
             <div className="space-y-4 w-full">
-              <p className="text-sm text-[#701114] font-medium font-poppins">19:30 HS | FIESTA</p>
+              <p className="text-sm text-[#701114] font-medium font-poppins">23:00 HS | FIESTA</p>
               <h3 className="text-xl md:text-2xl font-semibold text-[#701114] leading-tight font-poppins">
                 ESTANCIA<br />CAUSANA
               </h3>
